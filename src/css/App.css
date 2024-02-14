@@ -1,0 +1,68 @@
+/* Estilo del nav link */
+.active {
+  position: relative;
+  transition: width 0.3s ease-in-out;
+  color: #5a0084;
+}
+/* Estilo del before del active nav link */
+.active::before {
+  content: "";
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  width: 20%;
+  height: 1%;
+  bottom: 0;
+  background: #000;
+}
+/* estilo Hover del border del nav link */
+.active:hover::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 1%;
+  bottom: 0;
+  background: #000;
+}
+/* fondo de la portada */
+.portada-bg {
+  background: linear-gradient(0deg, transparent, #e4e4e6 200%);
+}
+/* estilo de imagen de la portada */
+.in-hero_right img {
+  position: absolute;
+}
+.inc-1 {
+  left: 68px;
+  top: 70px;
+}
+.inc-2 {
+  top: 196px;
+  left: 80px;
+}
+.inc-3 {
+  top: 359px;
+  left: 66px;
+  z-index: 6;
+}
+.inc-4 {
+  right: 95px;
+  top: 161px;
+  z-index: 1;
+}
+.inc-5 {
+  top: 365px;
+  right: 41px;
+}
+.inc-6 {
+  top: 459px;
+  right: -51px;
+}
+.in-hero_right {
+  position: relative;
+  height: 630px;
+}
+img.round_bg {
+  left: -5%;
+  z-index: -1;
+}
+/* ----------------- */
