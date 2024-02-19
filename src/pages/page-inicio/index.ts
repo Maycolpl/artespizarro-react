@@ -1,0 +1,1 @@
+export { default as Pageinicio } from './Pageinicio';

@@ -29,6 +29,10 @@ export default {
         // background productos destacados
         background_productos: "#E1E3E5",
       },
+      screens: {
+        "medium-desktop": "926px",
+        "desktop-min": "1200px",
+      },
     },
   },
   plugins: [],

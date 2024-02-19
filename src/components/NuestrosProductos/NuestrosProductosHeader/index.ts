@@ -1,0 +1,1 @@
+export { default as NuestroProductoHeader } from './NuestroProductoHeader';

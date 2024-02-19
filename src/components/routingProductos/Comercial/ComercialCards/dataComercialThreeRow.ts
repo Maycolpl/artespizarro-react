@@ -1,0 +1,61 @@
+import { PropsProductos } from "@/components/Inicio/Productos/ProductoCards/productos";
+import { imgThowRow } from "./img";
+
+export const dataComercialThreewRow: PropsProductos[] = [
+  {
+    id: "11",
+    description: "Piedra de huamanga(Alabastro)",
+    img: imgThowRow.img1,
+    title: "Quemador Eclipse",
+    taller: "Artes Pizarro",
+    dimensiones: "15cm x 14cm x 4cm",
+    material: "P. de Huamanaga (Alabastro)",
+    imgDetalle1: imgThowRow.img1,
+    imgDetalle2: imgThowRow.img1,
+  },
+  {
+    id: "12",
+    description: "Piedra de huamanga(Alabastro)",
+    imgDetalle1: imgThowRow.img5,
+    imgDetalle2: imgThowRow.img5,
+    img: imgThowRow.img5,
+    title: "Quemador Eclipse",
+    dimensiones: "13cm x 11cm x 4.5cm aprox.",
+    material: "P. de Huamanaga (Alabastro)",
+    taller: "Artes Pizarro",
+  },
+  {
+    id: "13",
+    description: "Piedra de huamanga(Alabastro)",
+    img: imgThowRow.img2,
+    imgDetalle1: imgThowRow.img2,
+    imgDetalle2: imgThowRow.img2,
+    title: "Quemador Eclipse",
+    dimensiones: "14cm x 14.5cm x 11cm",
+    material: "P. de Huamanaga (Alabastro)",
+    taller: "Artes Pizarro",
+  },
+  {
+    id: "14",
+    description: "Piedra de huamanga(Alabastro)",
+
+    img: imgThowRow.img3,
+    imgDetalle1: imgThowRow.img3,
+    imgDetalle2: imgThowRow.img3,
+    title: "Quemador Eclipse",
+    dimensiones: `21cm x 20cm x 13cm`,
+    material: "P. de Huamanaga (Alabastro)",
+    taller: "Artes Pizarro",
+  },
+  {
+    id: "15",
+    dimensiones: "7.7cm x 10.5cm x 3.5",
+    material: "P. de Huamanaga (Alabastro)",
+    taller: "Artes Pizarro",
+    img: imgThowRow.img4,
+    imgDetalle1: imgThowRow.img4,
+    imgDetalle2: imgThowRow.img4,
+    description: "Piedra de huamanga(Alabastro)",
+    title: "Quemador Eclipse",
+  },
+];
