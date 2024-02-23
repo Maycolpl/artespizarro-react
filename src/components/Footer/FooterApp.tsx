@@ -6,7 +6,7 @@ import FooterRedes from "./FooterRedes";
 
 const Footer = () => {
   return (
-    <footer className="flex mt-[5rem] text-text_third py-5 px-4 items-center gap-4 flex-col justify-center min-h-[44.8vh] bg-btn_third">
+    <footer className="flex mt-[0rem] text-text_third py-5 px-4 items-center gap-4 flex-col justify-center min-h-[44.8vh] bg-btn_third">
       <div className="w-full flex max-medium-desktop:flex-wrap justify-center items-center min-h-[8.9975rem]">
         <div className="flex max-medium-desktop:my-[3rem] items-center justify-center flex-[0_1_25.625rem]">
           <a href="/inicio">

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Logo = () => {
   return (
     <div className="flex-[0_1_23.5rem]">
-      <Link to="/inicio">
+      <Link to="/">
         <img
           src={logo}
           alt="Pizarro"

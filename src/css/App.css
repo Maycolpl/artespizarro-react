@@ -38,6 +38,9 @@
   bottom: 0;
   background: #000;
 }
+.bg-nosotros {
+  background: linear-gradient(0deg, #E1E3E5, #e4e4e6 200%);
+}
 /* fondo de la portada */
 .portada-bg {
   background: linear-gradient(0deg, transparent, #e4e4e6 200%);

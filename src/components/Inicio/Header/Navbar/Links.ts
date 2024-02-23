@@ -1,4 +1,4 @@
-import { Paths } from "@/Routers/router";
+import { Paths } from "@/Routers/routerApp";
 
 export type Links = {
   path: string;

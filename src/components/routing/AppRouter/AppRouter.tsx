@@ -1,4 +1,4 @@
-import { routerPublics } from "@/Routers/router";
+import { routerPublics } from "@/Routers/routerApp";
 import { routerPublicsProductos } from "@/Routers/routerProductos";
 import { Pageproducto } from "@/pages/page-producto";
 import { FC } from "react";

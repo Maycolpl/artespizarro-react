@@ -1,1 +1,1 @@
-export { default as Header } from './HeaderApp';
+export { default as Header } from './ProyectoHeaderApp';

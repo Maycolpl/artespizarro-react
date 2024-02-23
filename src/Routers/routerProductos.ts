@@ -13,12 +13,12 @@ export enum Paths {
   PRODUCTOSTALLADOS = "/productos/tallados",
 }
 
-export interface IRoute {
+export interface IRouteProducto {
   path: Paths;
   Componente: ComponentType;
 }
 
-export const routerPublicsProductos: IRoute[] = [
+export const routerPublicsProductos: IRouteProducto[] = [
   {
     Componente: Comercial,
     path: Paths.PRODUCTOSCOMERCIAL,
