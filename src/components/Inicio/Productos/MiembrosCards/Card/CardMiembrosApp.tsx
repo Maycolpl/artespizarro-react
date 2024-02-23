@@ -43,7 +43,7 @@ const CardMiembrosApp = () => {
       {miembros.map((miembros, index) => (
         <SwiperSlide
           key={index}
-          className="rounded-3xl mx-2 mb-[4rem] shadow-md p-4 bg-white border"
+          className="rounded-3xl mx-2 mb-[4rem] shadow-md p-[1rem] bg-white border"
         >
           <div
             className={` transition ${

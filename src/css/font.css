@@ -1,7 +1,7 @@
 /* ------------------------------- */
 @font-face {
   font-family: gilroy-black;
-  src: url(../../public/font/Gilroy-Black.ttf);
+  src: url(../css/font/Gilroy-Black.ttf);
 }
 .gilroy-black {
   /* EL nombre tiene que ser similar al que tiene font-face (font-family) */
@@ -12,7 +12,7 @@
 /* ------------------------------- */
 @font-face {
   font-family: gilroy-thin;
-  src: url(../../public/font/Gilroy-Thin.ttf);
+  src: url(../css/font/Gilroy-Thin.ttf);
 }
 .gilroy-thin {
   /* EL nombre tiene que ser similar al que tiene font-face (font-family) */
@@ -23,7 +23,7 @@
 /* ------------------------------- */
 @font-face {
   font-family: gilroy-medium;
-  src: url(../../public/font/Gilroy-Medium.ttf);
+  src: url(../css/font/Gilroy-Medium.ttf);
 }
 .gilroy-medium {
   /* EL nombre tiene que ser similar al que tiene font-face (font-family) */
@@ -34,7 +34,7 @@
 /* ------------------------------- */
 @font-face {
   font-family: gilroy-semibold;
-  src: url(../../public/font/Gilroy-SemiBold.ttf);
+  src: url(../css/font/Gilroy-SemiBold.ttf);
 }
 .gilroy-semi-bold {
   /* EL nombre tiene que ser similar al que tiene font-face (font-family) */
@@ -45,7 +45,7 @@
 /* ------------------------------- */
 @font-face {
   font-family: gilroy-regular;
-  src: url(../../public/font/Gilroy-Regular.ttf);
+  src: url(../css/font/Gilroy-Regular.ttf);
 }
 .gilroy-regular {
   /* EL nombre tiene que ser similar al que tiene font-face (font-family) */

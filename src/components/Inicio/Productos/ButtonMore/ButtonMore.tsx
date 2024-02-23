@@ -5,7 +5,10 @@ import { useNavigate } from "react-router-dom";
 const ButtonMore = () => {
   const navigate = useNavigate();
 
-  const changePageProductos = () => navigate("/productos");
+  const changePageProductos = () => {
+    navigate("/productos");
+    window.scroll(0, 0);
+  };
 
   return (
     <div className="flex flex-[0_1_73.5rem] items-center justify-center">

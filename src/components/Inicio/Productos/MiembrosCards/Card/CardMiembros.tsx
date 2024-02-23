@@ -2,7 +2,7 @@ import { PropsMiembros } from "./miembros";
 const CardMiembros = ({ author, cargo, description, img }: PropsMiembros) => {
   return (
     <>
-      <div className="flex gap-2 justify-evenly">
+      <div className="flex gap-2 text-start justify-evenly">
         <div>
           <img className="w-[3rem] rounded-full h-[3rem]" src={img} alt="" />
         </div>

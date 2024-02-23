@@ -5,7 +5,10 @@ import { AnimatePresence } from "framer-motion";
 
 const Contacto = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const open = () => setIsOpen(!isOpen);
+  const open = () => {
+    setIsOpen(!isOpen);
+    document.body.style.overflow = isOpen ? "auto" : "hidden";
+  };
 
   return (
     <>

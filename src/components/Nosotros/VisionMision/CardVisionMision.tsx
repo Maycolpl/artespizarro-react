@@ -14,15 +14,15 @@ const CardVisionMision = ({
 }: PropsCardVisionMision) => {
   return (
     <>
-      <div className="flex pl-[2rem] max-md:pt-[3rem] max-md:flex-wrap max-xl:pl-[3rem] relative justify-evenly pt-[6.5rem] flex-[0_1_77rem]">
+      <div className="flex pl-[2rem] max-md:pt-[3rem] max-md:flex-wrap max-xl:pl-[3rem] max-sm:px-[2rem] relative justify-evenly pt-[6.5rem] flex-[0_1_77rem]">
         <div className="flex flex-col max-md:flex-[0_1_25rem] flex-[0_1_44rem]">
           <div className="flex gap-4 mb-[2rem] flex-col">
-            <p className="text-[1.6rem] max-xl:text-[1.3rem] max-md:text-[1.1rem] text-text_secondary gilroy-semi-bold">
+            <p className="text-[1.6rem] max-sm:text-[1.1rem] max-xl:text-[1.3rem] max-md:text-[1.1rem] text-text_secondary gilroy-semi-bold">
               {title}
             </p>
-            <h3 className="text-text_primary max-medium-desktop:text-3xl max-md:text-2xl max-xl:text-4xl text-5xl gilroy-semi-bold">{nosotros}</h3>
+            <h3 className="text-text_primary max-sm:text-[1.2rem] max-medium-desktop:text-3xl max-md:text-2xl max-xl:text-4xl text-5xl gilroy-semi-bold">{nosotros}</h3>
           </div>
-          <div className="text-[1.1rem] max-w-[36.4375rem]">
+          <div className="text-[1.1rem] max-sm:text-[1rem] max-w-[36.4375rem]">
             <p className="text-text_primary">{text}</p>
           </div>
         </div>
