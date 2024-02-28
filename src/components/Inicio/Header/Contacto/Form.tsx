@@ -1,5 +1,8 @@
+import { useState } from "react";
+import ReactFlagsSelect from "react-flags-select";
 
 const FormModal = () => {
+  const [select, setSelect] = useState<string>("");
   return (
     <>
       <form className="text-text_primary">
@@ -10,14 +13,18 @@ const FormModal = () => {
             className="border h-[2.5rem] p-2 w-full"
           />
           <div className="flex w-full">
-            <select className="w-full h-[2.5rem] p-2 text-sm  border">
-              <option value={""}>Escoge el País</option>
-              <option value="US">Perú</option>
-            </select>
+            <ReactFlagsSelect
+            className="w-full"
+              selected={select}
+              onSelect={(code) => setSelect(code)}
+              placeholder="Selecciona tu País"
+              searchable
+              searchPlaceholder="Busca tu país"
+            />
             <input
               type="text"
-              className="border h-[2.5rem] p-2"
-              placeholder="Celular"
+              className="border h-[2.7rem] p-2"
+              placeholder="+ Celular"
             />
           </div>
         </div>

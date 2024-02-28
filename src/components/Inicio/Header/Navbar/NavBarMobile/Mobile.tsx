@@ -23,8 +23,13 @@ const Mobile = ({ onclick }: PropsMobile) => {
             <IoMdClose />
           </div>
           <div className="flex gap-5 flex-col">
-            {links.map((link) => (
-              <NavbarLinks onClick={onclick} data={link} className="" />
+            {links.map((link, index) => (
+              <NavbarLinks
+                key={`mobile-${index}`}
+                onClick={onclick}
+                data={link}
+                className=""
+              />
             ))}
           </div>
         </div>

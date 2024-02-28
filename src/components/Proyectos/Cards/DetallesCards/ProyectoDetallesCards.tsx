@@ -18,7 +18,7 @@ const ProyectoDetallesCards: FC<PropsDetalles> = ({ data }) => {
     <div className="min-h-screen container mx-auto">
       <SwiperCards img1={img1} img2={img2} img3={img3} title={title} />
       <div className="container flex justify-center m-auto">
-        <div className="flex-[0_1_75rem] max-md:px-[2rem]">
+        <div className="flex-[0_1_75rem] mb-[3rem] max-md:px-[2rem]">
           <h1 className="text-[2.5rem] max-md:text-[2rem] max-sm:text-2xl gilroy-black mb-6">{title}</h1>
           <p className="mb-5 text-[1rem] text-text_primary">{texto}</p>
           <p className="mb-5 text-[1rem] text-text_primary">{texto2}</p>
